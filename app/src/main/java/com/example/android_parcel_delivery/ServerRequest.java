@@ -3,6 +3,7 @@ package com.example.android_parcel_delivery;
 
 
 import android.content.Context;
+import android.nfc.Tag;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
@@ -19,6 +20,8 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -27,6 +30,13 @@ import java.util.concurrent.Executors;
 public class ServerRequest {
 
     private static final ExecutorService executorService = Executors.newSingleThreadExecutor();
+    List<Map<String, Object>> respData = new ArrayList<>();
+
+    public static String makeURL(String urlPostfix){
+        String domain = "https://euser.info.bd/android-parcel-delivery/";
+        String url = domain + urlPostfix;
+        return url;
+    }
 
     public interface ServerResponseListener {
         void onResponse(int err, String msg);
@@ -80,8 +90,10 @@ public class ServerRequest {
 
                         // Parse the JSON response
                         JSONObject jsonResponse = new JSONObject(response.toString());
+                        Log.d("TAG","msg" + jsonResponse.toString());
                         int err = jsonResponse.getInt("err");
                         String msg = jsonResponse.getString("msg");
+                        //List<Map<String, Object>> respData = jsonResponse.
                         listener.onResponse(err, msg);
                     }else{
                         listener.onResponse(1, "Error");

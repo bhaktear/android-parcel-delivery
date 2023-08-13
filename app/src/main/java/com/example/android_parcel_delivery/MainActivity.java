@@ -31,8 +31,6 @@ public class MainActivity extends AppCompatActivity {
         //Intent intent = new Intent(this,LoginActivity.class);
         startActivity(intent);
 
-
-
         /*
         loginBtn =findViewById(R.id.loginbtn);
 

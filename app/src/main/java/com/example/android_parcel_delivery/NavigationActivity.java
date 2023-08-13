@@ -14,6 +14,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
@@ -39,9 +40,11 @@ public class NavigationActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar ,R.string.OpenDrawer,R.string.CloseDrawer);
+        //ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout ,R.string.OpenDrawer,R.string.CloseDrawer);
         drawerLayout.addDrawerListener(toggle);
-        toggle.setDrawerIndicatorEnabled(true);
+        //toggle.setDrawerIndicatorEnabled(true);
         toggle.syncState();
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -77,6 +80,16 @@ public class NavigationActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
+
+    /*
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId() == android.R.id.home){ // use android.R.id
+            drawerLayout.openDrawer(Gravity.LEFT);
+        }
+        return super.onOptionsItemSelected(item);
+    }
+     */
 
     private void loadFragment(Fragment fragment) {
         FragmentManager fm = getSupportFragmentManager();

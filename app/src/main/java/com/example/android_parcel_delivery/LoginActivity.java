@@ -21,43 +21,44 @@ public class LoginActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_login);
         userId = findViewById(R.id.userID);
         loginPassword = findViewById(R.id.password);
+        loginBtn = findViewById(R.id.submit);
+        loginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String user_id = userId.getText().toString();
+                String password = loginPassword.getText().toString();
+                if(!user_id.equals("") && !password.equals("")){
+                    Map<String, String> postData = new HashMap<>();
+                    postData.put("user_id",user_id);
+                    postData.put("password",password);
+                    String url = ServerRequest.makeURL("api/login.php");
+                    //Toast.makeText(LoginActivity.this,url,Toast.LENGTH_SHORT).show();
 
-    }
-
-    public void loginAction(View view){
-        String user_id = userId.getText().toString();
-        String password = loginPassword.getText().toString();
-        if(!user_id.equals("") && !password.equals("")){
-            //String text = "UserId: " + user_id + " pass: " + password;
-            Map<String, String> postData = new HashMap<>();
-            postData.put("user_id",user_id);
-            postData.put("password",password);
-            String url = "https://euser.info.bd/android-parcel-delivery/hello.php";
-
-            ServerRequest.performRequest("GET", url, postData, new ServerRequest.ServerResponseListener() {
-                @Override
-                public void onResponse(int err, String message) {
-                    if(err == 0){
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
+                    ServerRequest.performRequest("POST", url, postData, new ServerRequest.ServerResponseListener() {
+                        @Override
+                        public void onResponse(int err, String msg) {
+                            if(err == 0){
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Toast.makeText(LoginActivity.this, msg, Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                            }else{
+                                runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Toast.makeText(LoginActivity.this, msg, Toast.LENGTH_SHORT).show();
+                                    }
+                                });
                             }
-                        });
-                    }else{
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                Toast.makeText(LoginActivity.this, message, Toast.LENGTH_SHORT).show();
-                            }
-                        });
-                    }
+                        }
+                    });
                 }
-            });
-        }
+            }
+        });
+
     }
-
-
 
     public void registerActivity(View view){
         Intent intent = new Intent(LoginActivity.this,RegisterActivity.class);
