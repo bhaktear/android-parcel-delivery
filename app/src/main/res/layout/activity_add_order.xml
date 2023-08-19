@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.886" />
 
     <TextView
-        android:id="@+id/logoLogin"
+        android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -107,7 +107,7 @@
 
 
     <EditText
-        android:id="@+id/customerName"
+        android:id="@+id/email"
         android:layout_width="325dp"
         android:layout_height="45dp"
         android:drawableLeft="@drawable/ic_email"
@@ -131,9 +131,9 @@
         android:hint="Customer Mobile"
         android:inputType="phone"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/customerName"
+        app:layout_constraintEnd_toEndOf="@+id/email"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/customerName"
+        app:layout_constraintStart_toStartOf="@+id/email"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.332" />
 
@@ -148,7 +148,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.007"
-        app:layout_constraintStart_toStartOf="@+id/customerName"
+        app:layout_constraintStart_toStartOf="@+id/email"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.393" />
 
@@ -157,7 +157,7 @@
         android:layout_width="223dp"
         android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/customerName"
+        app:layout_constraintEnd_toEndOf="@+id/email"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textDistrict"
         app:layout_constraintTop_toTopOf="parent"
@@ -174,7 +174,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.007"
-        app:layout_constraintStart_toStartOf="@+id/customerName"
+        app:layout_constraintStart_toStartOf="@+id/email"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.455" />
 
@@ -183,7 +183,7 @@
         android:layout_width="223dp"
         android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/customerName"
+        app:layout_constraintEnd_toEndOf="@+id/email"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textThana"
         app:layout_constraintTop_toTopOf="parent"
@@ -206,7 +206,7 @@
         app:layout_constraintVertical_bias="0.522" />
 
     <EditText
-        android:id="@+id/productType"
+        android:id="@+id/userID"
         android:layout_width="325dp"
         android:layout_height="45dp"
         android:drawableLeft="@drawable/ic_person"
@@ -230,13 +230,13 @@
         android:hint="Product Details"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/productType"
-        app:layout_constraintStart_toStartOf="@+id/productType"
+        app:layout_constraintEnd_toEndOf="@+id/userID"
+        app:layout_constraintStart_toStartOf="@+id/userID"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.639" />
 
     <EditText
-        android:id="@+id/productPrice"
+        android:id="@+id/confirmPass"
         android:layout_width="325dp"
         android:layout_height="45dp"
         android:layout_marginTop="16dp"
@@ -259,8 +259,8 @@
         android:hint="Delivery Charge"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/productPrice"
-        app:layout_constraintStart_toStartOf="@+id/productPrice"
+        app:layout_constraintEnd_toEndOf="@+id/confirmPass"
+        app:layout_constraintStart_toStartOf="@+id/confirmPass"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.769" />
 
