@@ -13,9 +13,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.android_parcel_delivery.libs.OkHttpUtils;
-import com.example.android_parcel_delivery.libs.SpinnerItem;
-import com.example.android_parcel_delivery.libs.Utils;
+import com.example.android_parcel_delivery.libUtils.OkHttpUtils;
+import com.example.android_parcel_delivery.libUtils.SpinnerItem;
+import com.example.android_parcel_delivery.libUtils.Utils;
 
 import org.json.JSONObject;
 

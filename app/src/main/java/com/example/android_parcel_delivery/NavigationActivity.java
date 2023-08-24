@@ -61,9 +61,15 @@ public class NavigationActivity extends AppCompatActivity {
                     Intent intent = new Intent(NavigationActivity.this,RegisterActivity.class);
                     startActivity(intent);
                 }else if(id == R.id.optAddOrder){
-                    Intent intent = new Intent(NavigationActivity.this,AddOrderActivity.class);
-                    startActivity(intent);
+                    loadFragment(new AddOrderFragment());
+                }else if(id == R.id.optOrderList){
+                    loadFragment(new OrderListFragment());
+                }else if(id == R.id.optOrderStatus){
+                    loadFragment(new OrderStatusFragment());
+                }else if(id == R.id.optTracking){
+                    loadFragment(new OrderSearchFragment());
                 }
+
                 drawerLayout.closeDrawer(GravityCompat.START);
 
 
@@ -94,7 +100,8 @@ public class NavigationActivity extends AppCompatActivity {
     private void loadFragment(Fragment fragment) {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
-        ft.add(R.id.container,fragment);
+        ft.replace(R.id.container,fragment);
+        ft.addToBackStack(null);
         ft.commit();
 
     }
