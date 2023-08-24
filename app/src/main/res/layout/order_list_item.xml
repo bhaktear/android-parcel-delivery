@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textInvoice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Invoice"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/ListMerchantName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Merchant Name: "
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/textInvoice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/ListCustomerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Customer Name: "
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/ListMerchantName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/ListStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="STatus: "
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/ListCustomerName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+<!--
+    <Button
+        android:id="@+id/addStatus"
+        android:layout_width="214dp"
+        android:layout_height="37dp"
+        android:text="Add Delivery Status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ListStatus" />
+-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

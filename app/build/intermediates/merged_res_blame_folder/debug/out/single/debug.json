@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_fragment_add_order.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/fragment_add_order.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/drawable_ic_login.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/drawable/ic_login.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_fragment_order_list.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/fragment_order_list.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/drawable_ic_email.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_app_bar_main.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/drawable_ic_mobile.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/drawable/ic_mobile.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_order_list_item.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/order_list_item.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_navigation_layout.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/navigation_layout.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/drawable_ic_register.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/drawable/ic_register.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/xml_backup_rules.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/drawable_ic_location.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_content_main.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.android_parcel_delivery.app-merged_res-28:/layout_header_layout.xml.flat",
+        "source": "com.example.android_parcel_delivery.app-main-30:/layout/header_layout.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/drawable_ic_person.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_header_layout.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/header_layout.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_activity_login.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/menu_navigation_items.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/menu/navigation_items.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_activity_register.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_fragment_order_search.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/fragment_order_search.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/drawable_ic_security.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/drawable/ic_security.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/layout_fragment_order_status.xml.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/layout/fragment_order_status.xml"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/bhaktear/.gradle/daemon/8.0/com.example.android_parcel_delivery.app-main-30:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

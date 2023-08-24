@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="CloseDrawer">Close Navigation Drawer</string>
+    <string name="OpenDrawer">Open Navigation Drawer</string>
+    <string name="app_name">Parcel Delivery</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="Theme.AndroidParcelDelivery" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        
+
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+        
+        <item name="android:statusBarColor" ns1:targetApi="1">?attr/colorPrimaryVariant</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AndroidParcelDelivery.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.AndroidParcelDelivery.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

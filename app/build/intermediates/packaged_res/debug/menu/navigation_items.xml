@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <item
+        android:id="@+id/optLogout"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/optLogin"
+        android:title="Login"
+        android:icon="@drawable/ic_login"/>
+
+    <item
+        android:id="@+id/optReg"
+        android:title="Registration"
+        android:icon="@drawable/ic_register"/>
+
+    <item
+        android:id="@+id/optAddOrder"
+        android:title="Add Order"
+        android:icon="@drawable/ic_register"/>
+    <item
+        android:id="@+id/optOrderList"
+        android:title="Order List" />
+
+    <item
+        android:id="@+id/optOrderStatus"
+        android:title="Update Order Status" />
+
+    <item
+        android:id="@+id/optTracking"
+        android:title="Product Tracking" />
+
+-->
+
+</menu>
