@@ -13,5 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-# Comment out the line below to include the libUtils folder
-#/src/java/libUtils/
+
