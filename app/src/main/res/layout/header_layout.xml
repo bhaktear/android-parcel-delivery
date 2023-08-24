@@ -17,18 +17,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="14dp"
-        android:id="@+id/headerName"
         android:text="Bhaktear Uddin"
         android:textColor="#fff"
         android:textSize="24sp"
         android:textStyle="bold" />
-    <!--
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="bhaktear@gmail.com"
-            android:textColor="#fff"
-            android:textSize="14sp"
-            android:textStyle="bold" />
-    -->
-    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bhaktear@gmail.com"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
