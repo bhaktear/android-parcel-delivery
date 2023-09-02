@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <item
+        android:id="@+id/optLogout"
+        android:title="Logout" />
+
     <item
         android:id="@+id/optLogin"
         android:title="Login"
@@ -25,5 +30,7 @@
     <item
         android:id="@+id/optTracking"
         android:title="Product Tracking" />
+
+-->
 
 </menu>
